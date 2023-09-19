@@ -3,14 +3,15 @@ body {
     font-family: sans-serif;
 }
 
-main {
-    border: 3px groove;
+.container {
+    border-radius: 60px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 2em;
     background-color: #005377;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 header {
@@ -19,11 +20,11 @@ header {
 }
 
 header h1 {
-    font-size: 36px;
+    font-size: 48px;
 }
 
 header p {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 #converter {
@@ -41,21 +42,29 @@ header p {
 
 input {
     padding: 6px;
+    border-radius: 60px;
 }
 
 label {
     display: block;
     text-align: center;
-    font-size: 24px;
+    font-size: 32px;
     padding-bottom: 0.5em;
     font-weight: bold;
 }
 
+.button {
+    margin-bottom: 2em;
+    margin-top: 0.5em;
+}
+
 button {
     display: block;
+    text-align: center;
     margin: 0 auto;
     width: 50%;
-    height: 50%;
-    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    font-size: 28px;
+    border-radius: 60px;
 }
 
