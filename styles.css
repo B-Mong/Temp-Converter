@@ -1,0 +1,61 @@
+body {
+    background-color: #add8e6;
+    font-family: sans-serif;
+}
+
+main {
+    border: 3px groove;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    background-color: #005377;
+}
+
+header {
+    text-align: center;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+#converter {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+
+.tempInput {
+    margin-bottom: 2em;
+}
+
+input {
+    padding: 6px;
+}
+
+label {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 0.5em;
+    font-weight: bold;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    font-size: 20px;
+}
+

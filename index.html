@@ -4,12 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/styles.css" rel="stylesheet">/>
+    <link href="/styles.css" rel="stylesheet">
     <title>Temp-Converter</title>
 </head>
 
 <body>
-
+    <main>
+        <div id="container">
+            <header>
+                <h1>Temperature Converter</h1>
+                <p>A simple temperature converter for Fahrenheit to Celsius</p>
+            </header>
+            <div id="converter">
+                <div class="tempInput">
+                    <label>Fahrenheit</label>
+                    <input id="fahrenheit" type="text">
+                </div>
+                <div class="tempInput">
+                    <label>Celcius</label>
+                    <input id="celcius" type="text">
+                </div>
+            </div>
+            <button id="reset">Reset</button>
+        </div>
+    </main>
     <script src="/app.js"></script>
 </body>
 
