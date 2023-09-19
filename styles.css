@@ -51,19 +51,21 @@ label {
     font-size: 32px;
     padding-bottom: 0.5em;
     font-weight: bold;
+    margin: 0 auto;
 }
 
 .button {
     margin-bottom: 2em;
     margin-top: 0.5em;
+    display: flex;
 }
 
 button {
-    display: block;
+    justify-content: space-evenly;
+    flex-direction: row;
     text-align: center;
     margin: 0 auto;
-    width: 50%;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 30%;
     font-size: 28px;
     border-radius: 60px;
 }
