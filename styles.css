@@ -3,6 +3,10 @@ body {
     font-family: sans-serif;
 }
 
+.dark-mode {
+    background-color: black;
+}
+
 .container {
     border-radius: 60px;
     position: absolute;
@@ -70,3 +74,11 @@ button {
     border-radius: 60px;
 }
 
+footer {
+    font-size: smaller;
+}
+
+button img {
+    width: 36px;
+    height: 36px;
+}

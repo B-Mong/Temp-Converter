@@ -3,6 +3,13 @@ function convertTemp(val) {
     return celcius 
 }
 
+function darkMode () {
+    let body = document.body
+    body.classList.toggle("dark-mode")
+}
+
+darkMode()
+
 document.getElementById("convert").addEventListener("click", function() {
     let fTemp = document.getElementById("fahrenheit").value
     if(fTemp == "") {
@@ -18,6 +25,7 @@ document.getElementById("reset").addEventListener("click", function() {
     document.getElementById("celcius").value = 0;
 })
 
+document.getElementById("darkmode").addEventListener("click", darkMode)
 
 
 
