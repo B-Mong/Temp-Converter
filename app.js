@@ -8,6 +8,7 @@ function darkMode () {
     body.classList.toggle("dark-mode")
 }
 
+
 document.getElementById("convert").addEventListener("click", function() {
     let fTemp = document.getElementById("fahrenheit").value
     if(fTemp == "") {
